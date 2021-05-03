@@ -2,7 +2,7 @@
 
 const closeButton = document.getElementById("close-button");
 
-closeButton.addEventListener("ontouchstart", () => {
+closeButton.addEventListener("click", () => {
   responsive.classList.toggle("hidden");
 });
 
@@ -10,7 +10,7 @@ closeButton.addEventListener("ontouchstart", () => {
 
 const dropDown = document.getElementById("responsive");
 
-dropDown.addEventListener("ontouchstart", () => {
+dropDown.addEventListener("click", () => {
   responsive.classList.toggle("hidden");
 });
 
