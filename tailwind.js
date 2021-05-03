@@ -1,4 +1,13 @@
 
+
+const closeButton = document.getElementById("close-button");
+
+closeButton.addEventListener("click", () => {
+  responsive.classList.toggle("hidden");
+});
+
+
+
 const dropDown = document.getElementById("responsive");
 
 dropDown.addEventListener("click", () => {
@@ -7,11 +16,6 @@ dropDown.addEventListener("click", () => {
 
 
 
-const closeButton = document.getElementById("close-button");
-
-closeButton.addEventListener("click", () => {
-  responsive.classList.toggle("hidden");
-});
 
 
 //EmailJS
